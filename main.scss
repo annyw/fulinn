@@ -1,6 +1,12 @@
 $basic-black: #2b2c2d;
 $nav-text: #787a7d;
 
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1220px;
+  }
+}
+
 button:focus {
   outline: none;
 }
@@ -48,4 +54,17 @@ button:focus {
 //index.html
 .jumbotron {
   margin-top: 60px;
+  height: 640px;
+  background-size: cover;
+  background: no-repeat center;
+  color: #ffffff;
+
+  .jumbotron-title {
+    font-size: 48px;
+  }
+
+  .jumbotron-description {
+    font-size: 12px;
+    margin-top: 5px;
+  }
 }

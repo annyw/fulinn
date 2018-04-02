@@ -1,3 +1,6 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1220px; } }
 button:focus {
   outline: none; }
 
@@ -29,6 +32,15 @@ button:focus {
   padding: 23px 36px; }
 
 .jumbotron {
-  margin-top: 60px; }
+  margin-top: 60px;
+  height: 640px;
+  background-size: cover;
+  background: no-repeat center;
+  color: #ffffff; }
+  .jumbotron .jumbotron-title {
+    font-size: 48px; }
+  .jumbotron .jumbotron-description {
+    font-size: 12px;
+    margin-top: 5px; }
 
 /*# sourceMappingURL=main.css.map */
