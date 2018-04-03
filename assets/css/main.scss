@@ -43,6 +43,11 @@ button {
   color: $basic-black;
 }
 
+p {
+  color: $basic-black;
+  font-size: 14px;
+}
+
 //datepicker adjust
 .gj-datepicker {
   border: 1px solid $border-color;
@@ -150,18 +155,27 @@ button {
   }
 }
 
-.swiper-container {
-  overflow: visible;
 
-  .swiper-wrapper {
-    overflow: hidden;
+.news {
+  .swiper-container {
+    margin-top: 15px;
   }
 
   .swiper-button-next {
-    right: -24px;
+    right: calc(-100% / 12 * 2);
   }
 
   .swiper-button-prev {
-    left: -24px;
+    left: calc(-100% / 12 * 2);
   }
+}
+
+.about {
+background-color: #f4f2f1;
+}
+
+.about-image {
+  height: 520px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

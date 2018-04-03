@@ -16,4 +16,11 @@ $(document).ready(function () {
             prevEl: '.swiper-button-prev',
         },
     });
+
+    var swiper = new Swiper('.about .swiper-container', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
 })
