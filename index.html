@@ -8,7 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/icon/font/css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="main.css">
+
+    <!--datetimepicker-->
+    <link href="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <!--swiper-->
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>Hello, world!</title>
 </head>
 <body>
@@ -55,26 +62,87 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <div class="jumbotron text-center d-flex  justify-content-center" style="background-image: url('assets/image/index-background.jpg')">
-                <div class="jumbotron-text align-self-center">
+            <div class="jumbotron text-center d-flex justify-content-center" style="background-image: url('assets/image/index-background.jpg')">
+                <div class="align-self-center">
                     <h1 class="jumbotron-title">
                         森下沐活莊園
                     </h1>
                     <p class="jumbotron-description">
                         休息，是為了走更長遠的路。
-                        <br>
                         旅行，只為了遇見更好的自己。
                         <br>
                         沐活，讓自身浸沐於山泉的清幽，
-                        <br>
                         活出林間無紛無擾的自在。
                         <br>
                         若你選擇旅居，駐足森下沐活，
-                        <br>
                         感受莊園主人畢生的熱愛。
                     </p>
                 </div>
+                <div class="reservation col-10 offset-md-1">
+                    <div class="row">
+                        <div class="col-md-4 col-xs-6">
+                            <label for="startDatepicker">
+                                入住日期
+                            </label>
+                            <input id="startDatepicker" placeholder="YYYY-MM-DD"/>
+                        </div>
+                        <div class="col-md-4 col-xs-6">
+                            <label for="endDatepicker">
+                                退房日期
+                            </label>
+                            <input id="endDatepicker" placeholder="YYYY-MM-DD"/>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="guestNumber">
+                                        入住人數
+                                    </label>
+                                    <input id="guestNumber" class="form-control" type="number">
+                                </div>
+                                <div class="col-6">
+                                    <button type="submit">
+                                        搜尋
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="text-center">
+                <div class="section-title-en">
+                    News
+                </div>
+                <div class="section-title">
+                    最新消息
+                </div>
+            </div>
+        </div>
+        <div class="col-10 offset-md-1">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">Slide 10</div>
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </div>
 </div>
@@ -88,5 +156,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/js/gijgo.min.js" type="text/javascript"></script>
+<script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
 </html>

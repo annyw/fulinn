@@ -1,0 +1,167 @@
+//variables
+$basic-black: #2b2c2d;
+$nav-text: #787a7d;
+$border-color: #dfe3e8;
+$border-focus: #a18a80;
+
+//global
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1250px;
+  }
+}
+
+button {
+  border-radius: 4px;
+  background-color: #78635a;
+  color: #ffffff;
+  padding: 10px 45px;
+  border: none;
+  font-size: 14px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.form-control {
+  width: 100%;
+  border: 1px solid $border-color;
+  background-color: #f9fafb;
+  font-size: 14px;
+  padding: 9px 12px;
+  border-radius: 3px;
+}
+
+.section-title-en {
+  font-size: 14px;
+  color: $border-focus;
+}
+
+.section-title {
+  font-size: 18px;
+  color: $basic-black;
+}
+
+//datepicker adjust
+.gj-datepicker {
+  border: 1px solid $border-color;
+  border-radius: 3px;
+  background-color: #f9fafb;
+
+  .form-control,
+  &>.input-group-append>.btn {
+    border-color: transparent;
+    background-color:  transparent;
+
+    &:hover {
+      border-color: transparent;
+      background-color: transparent;
+    }
+
+    &:focus {
+      border-color: transparent;
+      background-color: transparent;
+    }
+  }
+}
+
+
+
+  //navigation
+.navbar {
+  padding: 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler{
+  border: none;
+  padding: 0 22px;
+}
+
+.nav-link {
+  font-size: 14px;
+  color: $nav-text;
+
+  &:hover {
+    color: $nav-text;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    padding-left: 40px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 23px 18px;
+
+    &.online-reservation {
+      margin-left: 62px;
+    }
+  }
+}
+
+.online-reservation {
+  background-color: $basic-black;
+  color: #ffffff;
+  padding: 23px 36px;
+
+}
+
+//index.html
+.jumbotron {
+  margin-top: 60px;
+  height: 640px;
+  background-size: cover;
+  background: no-repeat center;
+  color: #ffffff;
+  margin-bottom: 0;
+  text-align: center;
+  border-radius: 0;
+
+  .jumbotron-title {
+    font-size: 48px;
+  }
+
+  .jumbotron-description {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}
+
+.reservation {
+  background: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: left;
+  color: #656769;
+  padding: 35px 40px;
+
+  label {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.swiper-container {
+  overflow: visible;
+
+  .swiper-wrapper {
+    overflow: hidden;
+  }
+
+  .swiper-button-next {
+    right: -24px;
+  }
+
+  .swiper-button-prev {
+    left: -24px;
+  }
+}
