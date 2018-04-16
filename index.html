@@ -6,238 +6,606 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/icon/font/css/open-iconic-bootstrap.min.css">
 
     <!--datetimepicker-->
-    <link href="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/css/gijgo.min.css" rel="stylesheet" type="text/css"/>
 
-    <!--swiper-->
-    <link rel="stylesheet" href="assets/css/swiper.min.css">
-
+    <link type="text/css" rel="stylesheet" href="assets/css/lightslider.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/slick.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/slick-theme.css"/>
     <link rel="stylesheet" href="assets/css/main.css">
-    <title>Hello, world!</title>
+    <title>森下沐活莊園</title>
 </head>
 <body>
-<!-- Navigation Start -->
-<nav class="navbar navbar-expand-lg">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path></svg>
-    </button>
-    <a class="navbar-brand" href="#">
-        <img src="assets/image/logo.png" height="40px" alt="">
-    </a>
-    <a class="nav-link online-reservation d-block d-lg-none" href="#">
-        <span class="oi oi-calendar"></span>
-    </a>
-    <div class="collapse navbar-collapse" id="navbarToggler">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">
-                    房型介紹
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                貼心服務
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                聯絡資訊
-                </a>
-            </li>
-            <li class="nav-item d-none d-lg-block">
-                <a class="nav-link online-reservation" href="#">
-                    <span class="oi oi-calendar"></span>
-                    線上訂房
-                </a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<!-- Navigation End -->
-
-<!-- Datepicker Start -->
-<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <div class="jumbotron text-center d-flex justify-content-center" style="background-image: url('assets/image/index-background.jpg')">
-                <div class="align-self-center">
-                    <h1 class="jumbotron-title">
-                        森下沐活莊園
-                    </h1>
-                    <p class="jumbotron-description">
-                        休息，是為了走更長遠的路。
-                        旅行，只為了遇見更好的自己。
-                        <br>
-                        沐活，讓自身浸沐於山泉的清幽，
-                        活出林間無紛無擾的自在。
-                        <br>
-                        若你選擇旅居，駐足森下沐活，
-                        感受莊園主人畢生的熱愛。
-                    </p>
-                </div>
-                <div class="reservation col-10 offset-md-1">
+<header>
+    <!-- Navigation Start -->
+    <nav class="navbar navbar-expand-lg">
+        <h2 class="d-none">Navigation</h2>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><title>
+                Menu</title>
+                <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
+                      d="M4 7h22M4 15h22M4 23h22"></path>
+            </svg>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="assets/image/logo.png" height="40px" alt="">
+        </a>
+        <a class="nav-link online-reservation d-block d-lg-none" href="#">
+            <span class="oi oi-calendar"></span>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        房型介紹
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        貼心服務
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        聯絡資訊
+                    </a>
+                </li>
+                <li class="nav-item d-none d-lg-block">
+                    <a class="nav-link online-reservation" href="#">
+                        <span class="oi oi-calendar"></span>
+                        線上訂房
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation End -->
+</header>
+<main class="index">
+    <div class="container">
+        <div class="row d-lg-block ">
+            <div class="col-12 p-0">
+                <div class="jumbotron text-center d-flex justify-content-center"
+                     style="background-image: url('assets/image/index-background.jpg')">
+                    <div class="align-self-center">
+                        <h1 class="jumbotron-title">
+                            森下沐活莊園
+                        </h1>
+                        <p class="d-none d-lg-block jumbotron-description">
+                            休息，是為了走更長遠的路。
+                            旅行，只為了遇見更好的自己。
+                            <br>
+                            沐活，讓自身浸沐於山泉的清幽，
+                            活出林間無紛無擾的自在。
+                            <br>
+                            若你選擇旅居，駐足森下沐活，
+                            感受莊園主人畢生的熱愛。
+                        </p>
+                        <p class="d-block d-lg-none jumbotron-description">
+                            休息，是為了走更長遠的路。
+                            <br>
+                            旅行，只為了遇見更好的自己。
+                            <br>
+                            沐活，讓自身浸沐於山泉的清幽，
+                            <br>
+                            活出林間無紛無擾的自在。
+                            <br>
+                            若你選擇旅居，駐足森下沐活，
+                            <br>
+                            感受莊園主人畢生的熱愛。
+                        </p>
+                    </div>
                     <div class="row">
-                        <div class="col-md-4 col-xs-6">
-                            <label for="startDatepicker">
-                                入住日期
-                            </label>
-                            <input id="startDatepicker" placeholder="YYYY-MM-DD"/>
-                        </div>
-                        <div class="col-md-4 col-xs-6">
-                            <label for="endDatepicker">
-                                退房日期
-                            </label>
-                            <input id="endDatepicker" placeholder="YYYY-MM-DD"/>
-                        </div>
-                        <div class="col-md-4 col-xs-12">
+                        <div class="reservation col-lg-10 offset-lg-1 col-12">
                             <div class="row">
-                                <div class="col-6">
-                                    <label for="guestNumber">
-                                        入住人數
-                                    </label>
-                                    <input id="guestNumber" class="form-control" type="number">
+                                <div class="col-lg-4 col-6">
+                                    <div class="date">
+                                        <label for="startDatepicker">
+                                            入住日期
+                                        </label>
+                                        <input id="startDatepicker" placeholder="YYYY-MM-DD"/>
+                                    </div>
                                 </div>
-                                <div class="col-6">
-                                    <button type="submit">
-                                        搜尋
-                                    </button>
+                                <div class="col-lg-4 col-6">
+                                    <div class="date">
+                                        <label for="endDatepicker">
+                                            退房日期
+                                        </label>
+                                        <input id="endDatepicker" placeholder="YYYY-MM-DD"/>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="row align-items-end">
+                                        <div class="col-6">
+                                            <div class="date">
+                                                <label for="guestNumber">
+                                                    入住人數
+                                                </label>
+                                                <input id="guestNumber" placeholder="1" class="form-control" type="number">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="date">
+                                                <button type="submit">
+                                                    搜尋
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
-
         </div>
     </div>
-    <div class="row">
-        <div class="col-12">
-            <div class="text-center">
-                <div class="section-title-en">
-                    News
-                </div>
-                <div class="section-title">
-                    最新消息
-                </div>
-            </div>
-        </div>
-        <div class="col-8 offset-md-2">
-            <div class="news">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+    <div class="container news-section">
+        <div class="row">
+            <hr class="hidden-lg-up w-100">
+            <div class="col-lg-10 offset-lg-1 col-12">
+                <h2 class="title">
+                    <div>News</div>
+                    <div>最新消息</div>
+                </h2>
+                <div class="row news">
+                    <div id="news" class="col-lg-10 offset-lg-1 col-12">
+                        <div>
                             <div class="row">
-                                <div class="col-2">
-                                    <p>
-                                        2018.01.22
-                                    </p>
-                                </div>
-                                <div class="col-3">
-                                    <p>
-                                        賞秋 · 尚好楓景
-                                    </p>
-                                </div>
-                                <div class="col-7">
-                                    <p>
-                                        繡球花綻放過後，阿里山最新一輪的秋季賞楓活動也正式起跑。不同於往年，這個秋天森下沐活特與阿里山鄉公所聯手企劃，打造內容最具深度、最令人難忘的季節性套裝行程「尚好風景」，讓遠遊的旅人得享受靜坐在紅楓下的愜意，同時體驗高山茶香的淡雅。即日起至10月30日，凡購買本套裝行程，就贈予森下沐活自家手工伴手禮-森下牛軋餅、森下鳳梨酥各乙份。詳情請電洽森下沐活。
-                                    </p>
+                                <div class="col-lg-2"><p>2018.01.22</p></div>
+                                <div class="col-lg-3"><p>賞秋 · 尚好楓景</p></div>
+                                <div class="col-lg-7"><p>
+                                    繡球花綻放過後，阿里山最新一輪的秋季賞楓活動也正式起跑。不同於往年，這個秋天森下沐活特與阿里山鄉公所聯手企劃，打造內容最具深度、最令人難忘的季節性套裝行程「尚好風景」，讓遠遊的旅人得享受靜坐在紅楓下的愜意，同時體驗高山茶香的淡雅。即日起至10月30日，凡購買本套裝行程，就贈予森下沐活自家手工伴手禮-森下牛軋餅、森下鳳梨酥各乙份。詳情請電洽森下沐活。</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div>
                             <div class="row">
-                                <div class="col-2">
-                                    2018.01.22
-                                </div>
-                                <div class="col-3">
-                                    賞秋 · 尚好楓景
-                                </div>
-                                <div class="col-7">
-                                    繡球花綻放過後，阿里山最新一輪的秋季賞楓活動也正式起跑。不同於往年，這個秋天森下沐活特與阿里山鄉公所聯手企劃，打造內容最具深度、最令人難忘的季節性套裝行程「尚好風景」，讓遠遊的旅人得享受靜坐在紅楓下的愜意，同時體驗高山茶香的淡雅。即日起至10月30日，凡購買本套裝行程，就贈予森下沐活自家手工伴手禮-森下牛軋餅、森下鳳梨酥各乙份。詳情請電洽森下沐活。
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="row">
-                                <div class="col-2">
-                                    2018.01.22
-                                </div>
-                                <div class="col-3">
-                                    賞秋 · 尚好楓景
-                                </div>
-                                <div class="col-7">
-                                    繡球花綻放過後，阿里山最新一輪的秋季賞楓活動也正式起跑。不同於往年，這個秋天森下沐活特與阿里山鄉公所聯手企劃，打造內容最具深度、最令人難忘的季節性套裝行程「尚好風景」，讓遠遊的旅人得享受靜坐在紅楓下的愜意，同時體驗高山茶香的淡雅。即日起至10月30日，凡購買本套裝行程，就贈予森下沐活自家手工伴手禮-森下牛軋餅、森下鳳梨酥各乙份。詳情請電洽森下沐活。
+                                <div class="col-lg-2"><p>2018.01.22</p></div>
+                                <div class="col-lg-3"><p>賞秋 · 尚好楓景</p></div>
+                                <div class="col-lg-7"><p>
+                                    繡球花綻放過後，阿里山最新一輪的秋季賞楓活動也正式起跑。不同於往年，這個秋天森下沐活特與阿里山鄉公所聯手企劃，打造內容最具深度、最令人難忘的季節性套裝行程「尚好風景」，讓遠遊的旅人得享受靜坐在紅楓下的愜意，同時體驗高山茶香的淡雅。即日起至10月30日，凡購買本套裝行程，就贈予森下沐活自家手工伴手禮-森下牛軋餅、森下鳳梨酥各乙份。詳情請電洽森下沐活。</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Add Arrows -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </div>
-
-    <div class="row">
-        <div class="col-12">
-            <div class="about">
+    <div class="position-relative">
+        <div class="container-fluid about">
+            <div class="row">
+                <div class="col-lg-6 col-12 px-0">
+                    <div class="position-relative">
+                    <ul id="about-images">
+                        <li>
+                            <div class="about-image" style="background-image: url(assets/image/index-background.jpg)"/>
+                        </li>
+                        <li>
+                            <div class="about-image" style="background-image: url(assets/image/index-background.jpg)"/>
+                        </li>
+                        <li>
+                            <div class="about-image" style="background-image: url(assets/image/index-background.jpg)"/>
+                        </li>
+                        <li>
+                            <div class="about-image" style="background-image: url(assets/image/index-background.jpg)"/>
+                        </li>
+                    </ul>
+                        <div id="aboutPrev" class="swiper-controls custom-arrow prev"></div>
+                        <div id="aboutPage" class="custom-arrow arrow-number"><span>1</span>/12</div>
+                        <div id="aboutNext" class="swiper-controls custom-arrow next"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 about-desc-wrapper px-2">
+                    <h2 class="title">
+                        <div>About</div>
+                        <div>關於我們</div>
+                    </h2>
+                    <p>
+                        沐：佇立阿里山鄉嶺地，俯瞰整嘉南平原景。雲霧光景朦朦，山泉谷水潺潺。聆聽鳥鳴關關，嗅聞葉綠芬芳。浮雲朝露，起而尋花逐夢，不如坐而沐愛山林。(周邊環境景)
+                        活：都市喧囂無欲靜之時，豈得活出人生自在？人聲鼎沸，車水馬龍，豈得意會生命奧美？若隨山隨水，則動靜皆宜。若置身林間，則怡然自適。吾需生活，但更愛慢活。
+                    </p>
+                    <div class="hosteler">
+                        <p>旅館主人 | 森下先生</p>
+                        <p>
+                            森下先生，為台灣日治時期背景下林業管理者與台人混血的第二代。森下先生改造原有戰前家族所留下的林業用地，成為今日人人都可拜訪的民宿—森下沐活，希望不論旅客來自何處，不分種族、國籍、膚色，都能透過旅居的方式，前來感受這裡的生活，感受他熱愛了一生的地方。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid room-type d-lg-block position-relative">
+            <h2 class="title">
+                <div>Rooms</div>
+                <div>房型介紹</div>
+            </h2>
+            <div class="row d-none d-lg-block">
+                <div class="col-8 offset-2">
+                    <ul class="d-flex justify-content-around items" id="roomSelectorTab">
+                        <li class="active" rel="0">森活單人房</li>
+                        <li rel="1">莊園雙人房</li>
+                        <li rel="2">山居四人房</li>
+                        <li rel="3">樂沐家庭房</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="select d-lg-none">
+                <div class="d-flex justify-content-center align-items-center">
+                    <span id="selectedRoom">森活單人房</span>
+                    <img src="assets/icon/svg/arrow-down.svg" />
+                </div>
+                <select id="roomSelector">
+                    <option value="0">森活單人房</option>
+                    <option value="1">莊園雙人房</option>
+                    <option value="2">山居四人房</option>
+                    <option value="3">樂沐家庭房</option>
+                </select>
+            </div>
+            <div style="position: relative;">
+                <div id="rooms" class="room-kind row">
+                    <div>
+                        <img class="room-image" id="positionUse" src="assets/image/room.jpg"/>
+                    </div>
+                    <div>
+                        <img class="room-image" src="assets/image/room.jpg"/>
+                        <!--
+                        <div class="room-summary room">
+                            <div class="d-flex align-items-start">
+                                <h2>森活單人房</h2>
+                                <label class="d-flex justify-content-center align-items-center">剩2間</label>
+                            </div>
+                            <h3>一張 Queen Size 單人床</h3>
+                            <div class="price">NTD 2,500 / 晚</div>
+                            <p>簡潔、乾淨、慢活，是身心靈最好的放鬆與享受。暫別城市的喧囂，緩下生活的步調，與阿里山最難忘的初識，便是將自己投身莊園沐活中。房型看似簡單，體悟卻最樸實、真摯。適合初次到訪阿里山的您。</p>
+                        </div>
+                        -->
+                    </div>
+                    <div>
+                        <img class="room-image" src="assets/image/room.jpg"/>
+                        <!--
+                        <div class="room-summary room">
+                            <div class="d-flex align-items-start">
+                                <h2>森活單人房</h2>
+                                <label class="d-flex justify-content-center align-items-center">剩2間</label>
+                            </div>
+                            <h3>一張 Queen Size 單人床</h3>
+                            <div class="price">NTD 2,500 / 晚</div>
+                            <p>簡潔、乾淨、慢活，是身心靈最好的放鬆與享受。暫別城市的喧囂，緩下生活的步調，與阿里山最難忘的初識，便是將自己投身莊園沐活中。房型看似簡單，體悟卻最樸實、真摯。適合初次到訪阿里山的您。</p>
+                        </div>
+                        -->
+                    </div>
+                </div>
+                <div id="rooms1" style="display: none;" class="room-kind row">
+                    <div>
+                        <img class="room-image" src="assets/image/food.jpg"/>
+                    </div>
+                    <div>
+                        <img class="room-image" src="assets/image/food.jpg"/>
+                        <!--
+                        <div class="room-summary room">
+                            <div class="d-flex align-items-start">
+                                <h2>森活單人房</h2>
+                                <label class="d-flex justify-content-center align-items-center">剩2間</label>
+                            </div>
+                            <h3>一張 Queen Size 單人床</h3>
+                            <div class="price">NTD 2,500 / 晚</div>
+                            <p>簡潔、乾淨、慢活，是身心靈最好的放鬆與享受。暫別城市的喧囂，緩下生活的步調，與阿里山最難忘的初識，便是將自己投身莊園沐活中。房型看似簡單，體悟卻最樸實、真摯。適合初次到訪阿里山的您。</p>
+                        </div>
+                        -->
+                    </div>
+                    <div>
+                        <img class="room-image" src="assets/image/food.jpg"/>
+                        <!--
+                        <div class="room-summary room">
+                            <div class="d-flex align-items-start">
+                                <h2>森活單人房</h2>
+                                <label class="d-flex justify-content-center align-items-center">剩2間</label>
+                            </div>
+                            <h3>一張 Queen Size 單人床</h3>
+                            <div class="price">NTD 2,500 / 晚</div>
+                            <p>簡潔、乾淨、慢活，是身心靈最好的放鬆與享受。暫別城市的喧囂，緩下生活的步調，與阿里山最難忘的初識，便是將自己投身莊園沐活中。房型看似簡單，體悟卻最樸實、真摯。適合初次到訪阿里山的您。</p>
+                        </div>
+                        -->
+                    </div>
+                </div>
+                <div id="rooms2" style="display: none;" class="room-kind row">
+                    <div>
+                        <img class="room-image" src="assets/image/room.jpg"/>
+                    </div>
+                    <div>
+                        <img class="room-image" src="assets/image/room.jpg"/>
+                        <!--
+                        <div class="room-summary room">
+                            <div class="d-flex align-items-start">
+                                <h2>森活單人房</h2>
+                                <label class="d-flex justify-content-center align-items-center">剩2間</label>
+                            </div>
+                            <h3>一張 Queen Size 單人床</h3>
+                            <div class="price">NTD 2,500 / 晚</div>
+                            <p>簡潔、乾淨、慢活，是身心靈最好的放鬆與享受。暫別城市的喧囂，緩下生活的步調，與阿里山最難忘的初識，便是將自己投身莊園沐活中。房型看似簡單，體悟卻最樸實、真摯。適合初次到訪阿里山的您。</p>
+                        </div>
+                        -->
+                    </div>
+                    <div>
+                        <img class="room-image" src="assets/image/room.jpg"/>
+                        <!--
+                        <div class="room-summary room">
+                            <div class="d-flex align-items-start">
+                                <h2>森活單人房</h2>
+                                <label class="d-flex justify-content-center align-items-center">剩2間</label>
+                            </div>
+                            <h3>一張 Queen Size 單人床</h3>
+                            <div class="price">NTD 2,500 / 晚</div>
+                            <p>簡潔、乾淨、慢活，是身心靈最好的放鬆與享受。暫別城市的喧囂，緩下生活的步調，與阿里山最難忘的初識，便是將自己投身莊園沐活中。房型看似簡單，體悟卻最樸實、真摯。適合初次到訪阿里山的您。</p>
+                        </div>
+                        -->
+                    </div>
+                </div>
+                <div id="rooms3" style="display: none;" class="room-kind row">
+                    <div>
+                        <img class="room-image" src="assets/image/food.jpg"/>
+                    </div>
+                    <div>
+                        <img class="room-image" src="assets/image/food.jpg"/>
+                        <!--
+                        <div class="room-summary room">
+                            <div class="d-flex align-items-start">
+                                <h2>森活單人房</h2>
+                                <label class="d-flex justify-content-center align-items-center">剩2間</label>
+                            </div>
+                            <h3>一張 Queen Size 單人床</h3>
+                            <div class="price">NTD 2,500 / 晚</div>
+                            <p>簡潔、乾淨、慢活，是身心靈最好的放鬆與享受。暫別城市的喧囂，緩下生活的步調，與阿里山最難忘的初識，便是將自己投身莊園沐活中。房型看似簡單，體悟卻最樸實、真摯。適合初次到訪阿里山的您。</p>
+                        </div>
+                        -->
+                    </div>
+                    <div>
+                        <img class="room-image" src="assets/image/food.jpg"/>
+                        <!--
+                        <div class="room-summary room">
+                            <div class="d-flex align-items-start">
+                                <h2>森活單人房</h2>
+                                <label class="d-flex justify-content-center align-items-center">剩2間</label>
+                            </div>
+                            <h3>一張 Queen Size 單人床</h3>
+                            <div class="price">NTD 2,500 / 晚</div>
+                            <p>簡潔、乾淨、慢活，是身心靈最好的放鬆與享受。暫別城市的喧囂，緩下生活的步調，與阿里山最難忘的初識，便是將自己投身莊園沐活中。房型看似簡單，體悟卻最樸實、真摯。適合初次到訪阿里山的您。</p>
+                        </div>
+                        -->
+                    </div>
+                </div>
+                <div class="room-arrow">
+                    <div id="roomPrev" class="swiper-controls custom-arrow prev"></div>
+                    <div id="roomPage" class="custom-arrow arrow-number"><span>1</span>/12</div>
+                    <div id="roomNext" class="swiper-controls custom-arrow next"></div>
+                </div>
+                <div class="room-summary room" rel="0">
+                    <div class="d-flex align-items-start">
+                        <h2>森活單人房</h2>
+                        <label class="d-flex justify-content-center align-items-center">剩2間</label>
+                    </div>
+                    <h3>一張 Queen Size 單人床</h3>
+                    <div class="price">NTD 2,500 / 晚</div>
+                    <p>
+                        簡潔、乾淨、慢活，是身心靈最好的放鬆與享受。暫別城市的喧囂，緩下生活的步調，與阿里山最難忘的初識，便是將自己投身莊園沐活中。房型看似簡單，體悟卻最樸實、真摯。適合初次到訪阿里山的您。</p>
+                </div>
+                <div class="room-summary room" rel="1" style="display: none;">
+                    <div class="d-flex align-items-start">
+                        <h2>莊園雙人房</h2>
+                        <label class="d-flex justify-content-center align-items-center">剩2間</label>
+                    </div>
+                    <h3>一張 Queen Size 單人床</h3>
+                    <div class="price">NTD 2,500 / 晚</div>
+                    <p>
+                        簡潔、乾淨、慢活，是身心靈最好的放鬆與享受。暫別城市的喧囂，緩下生活的步調，與阿里山最難忘的初識，便是將自己投身莊園沐活中。房型看似簡單，體悟卻最樸實、真摯。適合初次到訪阿里山的您。</p>
+                </div>
+                <div class="room-summary room" rel="2" style="display: none;">
+                    <div class="d-flex align-items-start">
+                        <h2>山居四人房</h2>
+                        <label class="d-flex justify-content-center align-items-center">剩2間</label>
+                    </div>
+                    <h3>一張 Queen Size 單人床</h3>
+                    <div class="price">NTD 2,500 / 晚</div>
+                    <p>
+                        簡潔、乾淨、慢活，是身心靈最好的放鬆與享受。暫別城市的喧囂，緩下生活的步調，與阿里山最難忘的初識，便是將自己投身莊園沐活中。房型看似簡單，體悟卻最樸實、真摯。適合初次到訪阿里山的您。</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button>查看所有房型</button>
+            </div>
+        </div>
+        <div class="container-fluid facilities d-none d-lg-block">
+            <div class="row">
+                <div class="col-10 offset-1 facilities-outer">
+                    <h2 class="title">
+                        <div>Facilities</div>
+                        <div>設備服務</div>
+                    </h2>
+                    <div class="col-12 facilities-wrapper">
+                        <span style="background-image: url('assets/icon/svg/tv.svg')">電視</span>
+                        <span style="background-image: url('assets/icon/svg/tv.svg')">免費早餐</span>
+                        <span style="background-image: url('assets/icon/svg/tv.svg')">電視</span>
+                        <span style="background-image: url('assets/icon/svg/tv.svg')">電視</span>
+                        <span style="background-image: url('assets/icon/svg/tv.svg')">電視</span>
+                        <span style="background-image: url('assets/icon/svg/tv.svg')">電視</span>
+                        <span style="background-image: url('assets/icon/svg/tv.svg')">電視</span>
+                        <span style="background-image: url('assets/icon/svg/tv.svg')">電視</span>
+                        <span style="background-image: url('assets/icon/svg/tv.svg')">電視</span>
+                        <span style="background-image: url('assets/icon/svg/tv.svg')">電視</span>
+                        <span style="background-image: url('assets/icon/svg/tv.svg')">電視</span>
+                        <span style="background-image: url('assets/icon/svg/tv.svg')">電視</span>
+                        <span style="background-image: url('assets/icon/svg/tv.svg')">電視</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid location">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-6 pl-0">
-                        <div class="about swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="about-image" style="background-image: url(assets/image/index-background.jpg)">
-                                    </div>
+                    <div class="col-6 map d-none d-lg-block">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.5512946107824!2d121.61380641472479!3d23.976302086026337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34689fc2d828e5c9%3A0xc1e2bd1c575c3dc!2zOTcw6Iqx6JOu57ij6Iqx6JOu5biC5YyX5r-x6KGXMTI46Jmf!5e0!3m2!1szh-TW!2stw!4v1523191519173"
+                                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="transport-wrapper">
+                            <h2 class="title">
+                                <div>Location</div>
+                                <div>交通資訊</div>
+                            </h2>
+                            <p class="address">台灣嘉義縣阿里山鄉滿房村12345號</p>
+                            <div class="contact d-flex flex-column flex-lg-row justify-content-center align-items-center">
+                                <div class="d-flex align-items-center"><span class="oi oi-phone"></span>+886-2-2515 8777
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="about-image" style="background-image: url(assets/image/index-background.jpg)">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="about-image" style="background-image: url(assets/image/index-background.jpg)">
-                                    </div>
+                                <div class="d-flex align-items-center"><span class="oi oi-map-marker"></span>Google Maps
                                 </div>
                             </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
+                            <div>
+                                <h3>大眾運輸</h3>
+                                <p>搭乘台灣鐵路至嘉義火車站後，轉乘阿里山森林鐵路。 詳細上山乘車班次及各站停靠時間，請見：https://goo.gl/TT3s5D。</p>
+                                <h3>開車</h3>
+                                <p>(1) 國道3號→台3線→梅山交流道(279K)→162甲線道(梅山、瑞里、瑞峰、太和地區)<br/>(2)
+                                    國道3號→台3線→竹崎交流道(290K)→166線道(竹崎、太興、瑞里)阿里山公路56K、66K附近設有景觀休息站沒有廁所，但是在石棹大明汽車修護廠旁設有公廁。<br/>(3)
+                                    國道1號→嘉義系統交流道(264K)→82號快速道路→國道3號→中埔交流道(297K)</p>
+                                <h3>接送服務</h3>
+                                <p>阿里山鄉火車站接駁服務（請至少於住房前一週預約<br/>服務站點包含：二萬平火車站、阿里山火車站、神木車站、沼平車站。</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="text-center">
-                            <div class="section-title-en">
-                                News
-                            </div>
-                            <div class="section-title">
-                                最新消息
-                            </div>
-                            <p>
-                                沐：佇立阿里山鄉嶺地，俯瞰整嘉南平原景。雲霧光景朦朦，山泉谷水潺潺。聆聽鳥鳴關關，嗅聞葉綠芬芳。浮雲朝露，起而尋花逐夢，不如坐而沐愛山林。(周邊環境景)
-                                活：都市喧囂無欲靜之時，豈得活出人生自在？人聲鼎沸，車水馬龍，豈得意會生命奧美？若隨山隨水，則動靜皆宜。若置身林間，則怡然自適。吾需生活，但更愛慢活。
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid branch">
+            <div class="container">
+                <h2 class="title">
+                    <div>Branch</div>
+                    <div>分館資訊</div>
+                </h2>
+                <div class="row branch-wrapper">
+                    <div class="col-lg-6 d-lg-flex col-12 align-items-center">
+                        <div class="col-lg-6 col-12"><img src="assets/image/room.jpg"/></div>
+                        <div class="col-lg-6 col-12">
+                            <h4>森下慢典</h4>
+                            <p>地址：台灣嘉義縣阿里山鄉12346號<br/>電話：(05)123-4568 0912-345-679<br/>電子信箱：service@morishitavilla2.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-lg-flex col-12 align-items-center">
+                        <div class="col-lg-6 col-12"><img src="assets/image/room.jpg"/></div>
+                        <div class="col-lg-6 col-12">
+                            <h4>森下快活</h4>
+                            <p>地址：台灣嘉義縣阿里山鄉12346號<br/>電話：(05)123-4568 0912-345-679<br/>電子信箱：service@morishitavilla2.com
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- TODO: background image -->
+        <div class="container-fluid mail">
+            <div class="container">
+                <h2 class="title">
+                    <div>Contact Us</div>
+                    <div>聯絡我們</div>
+                </h2>
+                <p class="text-center">若您有任何相關問題，歡迎填寫表單與我們聯繫，我們將儘速回覆，謝謝。</p>
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-12">
+                        <div class="row">
+                            <div class="col-lg-4 col-12">
+                                <label>姓名</label>
+                                <input type="text" placeholder="請輸入你的名字"/>
+                                <label>電子郵件</label>
+                                <input type="text" placeholder="youremail@email.com"/>
+                            </div>
+                            <div class="col-lg-4 col-12">
+                                <label>需求說明</label>
+                                <textarea placeholder="請輸入您的問題及需求。"></textarea>
+                            </div>
+                            <div class="col-lg-4 col-12 pt-4 align-self-end">
+                                <button>提交表單</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+</main>
+<footer>
+    <div class="footer container position-relative mt-0">
+        <div class="row">
+            <div class="col-lg-4 col-12 intro">
+                <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline"
+                     data-height="260" data-small-header="false" data-adapt-container-width="true"
+                     data-hide-cover="false" data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 intro">
+                <h3>森下沐活</h3>
+                <div class="eng-name">Morishita Villa</div>
+                <div class="slogan">若你選擇旅居，駐足森下沐活，感受莊園主人畢生的熱愛。</div>
+                <div class="contact-information">
+                    <div><span>地址：</span>台灣嘉義縣阿里山鄉12345號</div>
+                    <div><span>電話：</span>(05)123-4567</div>
+                    <div><span>手機：</span>0912-345-678</div>
+                    <div><span>電子信箱：</span>service@morishitavilla.com</div>
+                    <div><span>聯繫時間：</span>8 AM - 10 PM</div>
+                </div>
+            </div>
+            <div class="col-4 d-none d-lg-flex flex-column justify-content-between">
+                <nav>
+                    <h2 class="d-none">Navigation</h2>
+                    <ul>
+                        <li><a href="#">首頁</a></li>
+                        <li><a href="#">房型介紹</a></li>
+                        <li><a href="#">貼心服務</a></li>
+                        <li><a href="#">聯絡資訊</a></li>
+                    </ul>
+                </nav>
+                <div class="social text-right">
+                    <img src="assets/icon/png/facebook@3x.png"/>
+                    <img src="assets/icon/png/line@3x.png"/>
+                    <img src="assets/icon/png/wechat@3x.png"/>
+                    <img src="assets/icon/png/tripadvisor@3x.png"/>
+                </div>
+            </div>
+            <div class="col-12 d-lg-none d-flex justify-content-center">
+                <div class="social">
+                    <img src="assets/icon/png/facebook@3x.png"/>
+                    <img src="assets/icon/png/line@3x.png"/>
+                    <img src="assets/icon/png/wechat@3x.png"/>
+                    <img src="assets/icon/png/tripadvisor@3x.png"/>
+                </div>
+            </div>
+        </div>
+        <div class="copyright d-none d-lg-block">© 2018 森下沐活莊園 All Rights Reserved. Powered by Fullinn</div>
+        <div class="copyright d-lg-none d-block">© 2018 森下沐活莊園<br/>All Rights Reserved. Powered by Fullinn</div>
+    </div>
+</footer>
 
-<!-- Datepicker End -->
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/js/gijgo.min.js" type="text/javascript"></script>
-<script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/main.js"></script>
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.12';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript" src="assets/js/jquery-3.3.1.slim.min.js"></script>
+<script type="text/javascript" src="assets/js/lightslider.min.js"></script>
+<script type="text/javascript" src="assets/js/gijgo.min.js"></script>
+<script type="text/javascript" src="assets/js/enquire.min.js"></script>
+<script type="text/javascript" src="assets/js/slick.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="assets/js/index.js"></script>
 </body>
 </html>

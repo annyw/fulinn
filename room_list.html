@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/icon/font/css/open-iconic-bootstrap.min.css">
+
+    <!--datetimepicker-->
+    <link href="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>房型介紹</title>
+</head>
+<body>
+    <header>
+    <h2 class="d-none">森下沐活</h2>
+    <!-- Navigation Start -->
+    <nav class="navbar navbar-expand-lg">
+        <h2 class="d-none">Navigation</h2>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="assets/image/logo.png" height="40px" alt="">
+        </a>
+        <a class="nav-link online-reservation d-block d-lg-none" href="#">
+            <span class="oi oi-calendar"></span>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        房型介紹
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        貼心服務
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        聯絡資訊
+                    </a>
+                </li>
+                <li class="nav-item d-none d-lg-block">
+                    <a class="nav-link online-reservation" href="#">
+                        <span class="oi oi-calendar"></span>
+                        線上訂房
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation End -->
+</header>
+    <div class="top-banner d-flex justify-content-center align-items-center" style="background-image: url('assets/image/top.jpg')">
+        <h1>房型介紹</h1>
+    </div>
+    <!-- Datepicker Start -->
+    <div class="container-fluid date-picker">
+        <div class="row">
+            <div class="col-12 px-0">
+                <div class="text-center d-flex justify-content-center">
+                    <div class="reservation col-10">
+                        <div class="row">
+                            <div class="col-md-4 col-6 date">
+                                <label for="startDatepicker">
+                                    入住日期
+                                </label>
+                                <input id="startDatepicker" placeholder="YYYY-MM-DD"/>
+                            </div>
+                            <div class="col-md-4 col-6 date">
+                                <label for="endDatepicker">
+                                    退房日期
+                                </label>
+                                <input id="endDatepicker" placeholder="YYYY-MM-DD"/>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="row guest-number">
+                                    <div class="col-6 date">
+                                        <label for="guestNumber">
+                                            入住人數
+                                        </label>
+                                        <input id="guestNumber" class="form-control" type="number">
+                                    </div>
+                                    <div class="col-6">
+                                        <button type="submit">
+                                            搜尋
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Datepicker End -->
+    <main>
+        <div class="container room-list">
+            <div class="row room">
+                <div class="col-md-4 col-12 img-wrapper position-relative">
+                    <div class="recommend d-flex justify-content-center align-items-center">
+                        <img src="assets/icon/svg/star.svg" alt="">
+                        推薦
+                    </div>
+                    <img class="img-fluid" src="assets/image/room.jpg" />
+                </div>
+                <div class="col-md-8 col-12 desc-wrapper">
+                    <div class="row h-100 no-gutters desc-outer">
+                        <div class="col-md-7 d-flex flex-column justify-content-between">
+                            <div>
+                                <label class="d-flex justify-content-center align-items-center">剩2間</label>
+                                <h2>森活單人房</h2>
+                                <h3>一張 Queen Size 單人床</h3>
+                                <div class="d-sm-none d-block price">NTD 2,500 / 晚</div>
+                                <p>簡潔、乾淨、慢活，是身心靈最好的放鬆與享受。暫別城市的喧囂，緩下生活的步調，與阿里山最難忘的初識，便是將自己投身莊園沐活中。房型看似簡單，體悟卻最樸實、真摯。適合初次到訪阿里山的您。</p>
+                            </div>
+                            <div class="d-none d-sm-block equipment">
+                                <img src="assets/icon/svg/phone-2.svg" />
+                                <img src="assets/icon/svg/shower.svg" />
+                                <img src="assets/icon/svg/tv.svg" />
+                                <img src="assets/icon/svg/bike.svg" />
+                                <img src="assets/icon/svg/hanger.svg" />
+                            </div>
+                        </div>
+                        <div class="col-md-5 d-flex flex-column align-items-center justify-content-center">
+                            <div class="price d-none d-sm-block">NTD&nbsp;<span class="amount">2,500</span>&nbsp;起</div>
+                            <button class="details-btn">查看詳情</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row room">
+                <div class="col-md-4 col-12 img-wrapper position-relative">
+                    <div class="recommend d-flex justify-content-center align-items-center">
+                        <img src="assets/icon/svg/star.svg" alt="">
+                        推薦
+                    </div>
+                    <img class="img-fluid" src="assets/image/room.jpg" />
+                </div>
+                <div class="col-md-8 col-12 desc-wrapper">
+                    <div class="row h-100 no-gutters desc-outer">
+                        <div class="col-md-7 d-flex flex-column justify-content-between">
+                            <div>
+                                <label class="d-flex justify-content-center align-items-center">剩2間</label>
+                                <h2>森活單人房</h2>
+                                <h3>一張 Queen Size 單人床</h3>
+                                <div class="d-sm-none d-block price">NTD 2,500 / 晚</div>
+                                <p>簡潔、乾淨、慢活，是身心靈最好的放鬆與享受。暫別城市的喧囂，緩下生活的步調，與阿里山最難忘的初識，便是將自己投身莊園沐活中。房型看似簡單，體悟卻最樸實、真摯。適合初次到訪阿里山的您。</p>
+                            </div>
+                            <div class="d-none d-sm-block equipment">
+                                <img src="assets/icon/svg/phone-2.svg" />
+                                <img src="assets/icon/svg/shower.svg" />
+                                <img src="assets/icon/svg/tv.svg" />
+                                <img src="assets/icon/svg/bike.svg" />
+                                <img src="assets/icon/svg/hanger.svg" />
+                            </div>
+                        </div>
+                        <div class="col-md-5 d-flex flex-column align-items-center justify-content-center">
+                            <div class="price d-none d-sm-block">NTD&nbsp;<span class="amount">2,500</span>&nbsp;起</div>
+                            <button class="details-btn">查看詳情</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row room">
+                <div class="col-md-4 col-12 img-wrapper position-relative">
+                    <div class="recommend d-flex justify-content-center align-items-center">
+                        <img src="assets/icon/svg/star.svg" alt="">
+                        推薦
+                    </div>
+                    <img class="img-fluid" src="assets/image/room.jpg" />
+                </div>
+                <div class="col-md-8 col-12 desc-wrapper">
+                    <div class="row h-100 no-gutters desc-outer">
+                        <div class="col-md-7 d-flex flex-column justify-content-between">
+                            <div>
+                                <label class="d-flex justify-content-center align-items-center">剩2間</label>
+                                <h2>森活單人房</h2>
+                                <h3>一張 Queen Size 單人床</h3>
+                                <div class="d-sm-none d-block price">NTD 2,500 / 晚</div>
+                                <p>簡潔、乾淨、慢活，是身心靈最好的放鬆與享受。暫別城市的喧囂，緩下生活的步調，與阿里山最難忘的初識，便是將自己投身莊園沐活中。房型看似簡單，體悟卻最樸實、真摯。適合初次到訪阿里山的您。</p>
+                            </div>
+                            <div class="d-none d-sm-block equipment">
+                                <img src="assets/icon/svg/phone-2.svg" />
+                                <img src="assets/icon/svg/shower.svg" />
+                                <img src="assets/icon/svg/tv.svg" />
+                                <img src="assets/icon/svg/bike.svg" />
+                                <img src="assets/icon/svg/hanger.svg" />
+                            </div>
+                        </div>
+                        <div class="col-md-5 d-flex flex-column align-items-center justify-content-center">
+                            <div class="price d-none d-sm-block">NTD&nbsp;<span class="amount">2,500</span>&nbsp;起</div>
+                            <button class="details-btn">查看詳情</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row room">
+                <div class="col-md-4 col-12 img-wrapper position-relative">
+                    <div class="recommend d-flex justify-content-center align-items-center">
+                        <img src="assets/icon/svg/star.svg" alt="">
+                        推薦
+                    </div>
+                    <img class="img-fluid" src="assets/image/room.jpg" />
+                </div>
+                <div class="col-md-8 col-12 desc-wrapper">
+                    <div class="row h-100 no-gutters desc-outer">
+                        <div class="col-md-7 d-flex flex-column justify-content-between">
+                            <div>
+                                <label class="d-flex justify-content-center align-items-center">剩2間</label>
+                                <h2>森活單人房</h2>
+                                <h3>一張 Queen Size 單人床</h3>
+                                <div class="d-sm-none d-block price">NTD 2,500 / 晚</div>
+                                <p>簡潔、乾淨、慢活，是身心靈最好的放鬆與享受。暫別城市的喧囂，緩下生活的步調，與阿里山最難忘的初識，便是將自己投身莊園沐活中。房型看似簡單，體悟卻最樸實、真摯。適合初次到訪阿里山的您。</p>
+                            </div>
+                            <div class="d-none d-sm-block equipment">
+                                <img src="assets/icon/svg/phone-2.svg" />
+                                <img src="assets/icon/svg/shower.svg" />
+                                <img src="assets/icon/svg/tv.svg" />
+                                <img src="assets/icon/svg/bike.svg" />
+                                <img src="assets/icon/svg/hanger.svg" />
+                            </div>
+                        </div>
+                        <div class="col-md-5 d-flex flex-column align-items-center justify-content-center">
+                            <div class="price d-none d-sm-block">NTD&nbsp;<span class="amount">2,500</span>&nbsp;起</div>
+                            <button class="details-btn">查看詳情</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <nav>
+        <h2 class="d-none">Pagination</h2>
+        <ul class="d-none d-sm-flex paging justify-content-center align-items-center">
+            <li class="prev"><img src="assets/icon/svg/arrow-left.svg" /></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">...</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li class="current">6</li>
+            <li><a href="#">7</a></li>
+            <li><a href="#">8</a></li>
+            <li><a href="#">...</a></li>
+            <li><a href="#">28</a></li>
+            <li class="next"><img src="assets/icon/svg/arrow-right.svg" /></li>
+        </ul>
+        <ul class="d-sm-none d-flex paging justify-content-center align-items-center">
+            <li><a href="#">1</a></li>
+            <li class="prev"><img src="assets/icon/svg/arrow-left-mobile.svg" /></li>
+            <li class="current">第6頁</li>
+            <li class="next"><img src="assets/icon/svg/arrow-right-mobile.svg" /></li>
+            <li><a href="#">28</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <div class="footer container position-relative mt-0">
+            <div class="row">
+                <div class="col-lg-4 col-12 intro">
+                    <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline"
+                         data-height="260" data-small-header="false" data-adapt-container-width="true"
+                         data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a
+                                href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 intro">
+                    <h3>森下沐活</h3>
+                    <div class="eng-name">Morishita Villa</div>
+                    <div class="slogan">若你選擇旅居，駐足森下沐活，感受莊園主人畢生的熱愛。</div>
+                    <div class="contact-information">
+                        <div><span>地址：</span>台灣嘉義縣阿里山鄉12345號</div>
+                        <div><span>電話：</span>(05)123-4567</div>
+                        <div><span>手機：</span>0912-345-678</div>
+                        <div><span>電子信箱：</span>service@morishitavilla.com</div>
+                        <div><span>聯繫時間：</span>8 AM - 10 PM</div>
+                    </div>
+                </div>
+                <div class="col-4 d-none d-lg-flex flex-column justify-content-between">
+                    <nav>
+                        <h2 class="d-none">Navigation</h2>
+                        <ul>
+                            <li><a href="#">首頁</a></li>
+                            <li><a href="#">房型介紹</a></li>
+                            <li><a href="#">貼心服務</a></li>
+                            <li><a href="#">聯絡資訊</a></li>
+                        </ul>
+                    </nav>
+                    <div class="social text-right">
+                        <img src="assets/icon/png/facebook@3x.png"/>
+                        <img src="assets/icon/png/line@3x.png"/>
+                        <img src="assets/icon/png/wechat@3x.png"/>
+                        <img src="assets/icon/png/tripadvisor@3x.png"/>
+                    </div>
+                </div>
+                <div class="col-12 d-lg-none d-flex justify-content-center">
+                    <div class="social">
+                        <img src="assets/icon/png/facebook@3x.png"/>
+                        <img src="assets/icon/png/line@3x.png"/>
+                        <img src="assets/icon/png/wechat@3x.png"/>
+                        <img src="assets/icon/png/tripadvisor@3x.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright d-none d-lg-block">© 2018 森下沐活莊園 All Rights Reserved. Powered by Fullinn</div>
+            <div class="copyright d-lg-none d-block">© 2018 森下沐活莊園<br/>All Rights Reserved. Powered by Fullinn</div>
+        </div>
+    </footer>
+
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.12';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/js/gijgo.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/js/enquire.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
